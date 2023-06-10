@@ -1,0 +1,163 @@
+{
+"start": {
+"text": "¡Hola! I'm your enthusiastic language tutor ready to teach you Spanish. Are you ready to dive into the beautiful world of Spanish words? Here's a fun one to start with: What is the English translation of 'amigo'?",
+"correct_answers": ["friend"],
+"feedback_correct": "¡Fantástico! You've got it! 'Amigo' means 'friend' in Spanish. Friends make life brighter, just like learning a new language with a companion like you!",
+"feedback_incorrect": "¡Ay caramba! That's not the correct translation. The correct answer is 'friend'. Amigos are the friends that make life más interesante. Don't worry, let's try the next one!",
+"next_node": "translate_word"
+},
+"translate_word": {
+"text": "Excelente! Now, what is the English translation of the Spanish word 'hola'?",
+"correct_answers": ["hello"],
+"feedback_correct": "¡Maravilloso! 'Hola' means 'hello' in English. Just like the warm rays of the sun, 'hola' greets you with a bright welcome to the world of Spanish.",
+"feedback_incorrect": "Ay, ay, ay! That's not quite right. The correct translation is 'hello'. 'Hola' is how you say 'hello' in Spanish. Let's keep going!",
+"next_node": "translate_word1"
+},
+"translate_word1": {
+"text": "¡Muy bien! How about the English translation of 'casa'?",
+"correct_answers": ["house"],
+"feedback_correct": "¡Increíble! 'Casa' means 'house' in English. A casa is not just a building; it's a place where memories are made and laughter echoes through the halls.",
+"feedback_incorrect": "Oh no! That's not the right translation. The correct answer is 'house'. Imagine a cozy casa where you feel at home. Ready for the next challenge?",
+"next_node": "translate_word2"
+},
+"translate_word2": {
+"text": "¡Estupendo! How would you say 'perro' in English?",
+"correct_answers": ["dog"],
+"feedback_correct": "¡Fabuloso! 'Perro' translates to 'dog' in English. A perro is not just a pet; it's a loyal compañero who fills your days with wagging tails and unconditional love.",
+"feedback_incorrect": "¡Ay, caramba! That's not quite right. The correct translation is 'dog'. Picture a playful perro wagging its tail, ready for more language learning adventures.",
+"next_node": "translate_word3"
+},
+"translate_word3": {
+"text": "¡Excelente! Can you tell me the English translation of 'gato'?",
+"correct_answers": ["cat"],
+"feedback_correct": "¡Maravilloso! 'Gato' means 'cat' in English. Graceful and independent, a gato brings a touch of mystery to our lives, just like mastering a new language.",
+"feedback_incorrect": "¡Ay, ay, ay! That's not correct. The right translation is 'cat'. Imagine a curious gato exploring the world, just like we explore the beauty of Spanish together.",
+"next_node": "translate_word4"
+},
+"translate_word4": {
+"text": "¡Muy bien! How would you translate 'comer' in English?",
+"correct_answers": ["to eat"],
+"feedback_correct": "¡Fantástico! 'Comer' means 'to eat' in English. Sharing a meal is a time for connection, just like we're connecting with the Spanish language here.",
+"feedback_incorrect": "¡Ay, ay, ay! That's not the right translation. The correct answer is 'to eat'. Comer is more than a simple action; it's a chance to savor the flavors of language and culture.",
+"next_node": "translate_word5"
+},
+"translate_word5": {
+"text": "¡Increíble! Can you tell me the English translation of 'beber'?",
+"correct_answers": ["to drink"],
+"feedback_correct": "¡Maravilloso! 'Beber' translates to 'to drink' in English. Whether it's a refreshing beverage or the elixir of knowledge, beber quenches our thirst for learning.",
+"feedback_incorrect": "¡Ay, caramba! That's not quite right. The correct translation is 'to drink'. Beber is like a sip of Spanish that nourishes our language-learning journey.",
+"next_node": "translate_word6"
+},
+"translate_word6": {
+"text": "¡Estupendo! How would you say 'libro' in English?",
+"correct_answers": ["book"],
+"feedback_correct": "¡Fabuloso! 'Libro' means 'book' in English. Within the pages of a libro, you'll discover new worlds, ideas, and adventures, just like in the realm of language.",
+"feedback_incorrect": "¡Ay, caramba! That's not correct. The right translation is 'book'. Imagine holding a captivating libro that transports you to different cultures and perspectives.",
+"next_node": "translate_word7"
+},
+"translate_word7": {
+"text": "¡Excelente! Can you tell me the English translation of 'ciudad'?",
+"correct_answers": ["city"],
+"feedback_correct": "¡Increíble! 'Ciudad' translates to 'city' in English. A ciudad is not just a place with tall buildings; it's a vibrant tapestry of cultures, opportunities, and dreams.",
+"feedback_incorrect": "¡Ay, ay, ay! That's not quite right. The correct answer is 'city'. Picture the bustling streets of a vibrant ciudad, alive with the rhythm of language and life.",
+"next_node": "translate_word8"
+},
+"translate_word8": {
+"text": "¡Muy bien! How would you translate 'carro' in English?",
+"correct_answers": ["car"],
+"feedback_correct": "¡Fantástico! 'Carro' means 'car' in English. Just like a carro takes you on exciting journeys, learning Spanish opens doors to new horizons and adventures.",
+"feedback_incorrect": "¡Ay, ay, ay! That's not the right translation. The correct answer is 'car'. Imagine yourself cruising down the road, exploring the world with the Spanish language as your engine.",
+"next_node": "translate_word9"
+},
+"translate_word9": {
+"text": "¡Increíble! Can you tell me the English translation of 'escuela'?",
+"correct_answers": ["school"],
+"feedback_correct": "¡Maravilloso! 'Escuela' translates to 'school' in English. Within the walls of an escuela, knowledge blossoms, friendships form, and dreams take flight.",
+"feedback_incorrect": "¡Ay, caramba! That's not quite right. The correct translation is 'school'. Picture yourself entering the vibrant halls of an escuela, ready to learn and grow.",
+"next_node": "translate_word10"
+},
+"translate_word10": {
+"text": "¡Estupendo! How would you say 'trabajo' in English?",
+"correct_answers": ["work", "job"],
+"feedback_correct": "¡Fabuloso! 'Trabajo' can mean 'work' or 'job' in English. Every trabajo, no matter how big or small, contributes to the mosaic of our lives and the language we share.",
+"feedback_incorrect": "¡Ay, caramba! That's not correct. The right translations are 'work' or 'job'. Picture the satisfaction that comes from doing meaningful trabajo, both in life and language.",
+"next_node": "translate_word11"
+},
+"translate_word11": {
+"text": "¡Excelente! Can you tell me the English translation of 'bueno'?",
+"correct_answers": ["good"],
+"feedback_correct": "¡Fantástico! 'Bueno' translates to 'good' in English. Just like a warm ray of sunshine, the word 'good' brightens conversations and bridges cultures.",
+"feedback_incorrect": "¡Ay, ay, ay! That's not quite right. The correct translation is 'good'. 'Bueno' carries the essence of positivity and reflects the beauty of language.",
+"next_node": "translate_word12"
+},
+"translate_word12": {
+"text": "¡Muy bien! How would you translate 'mal' in English?",
+"correct_answers": ["bad"],
+"feedback_correct": "¡Maravilloso! 'Mal' means 'bad' in English. Just as understanding 'bad' helps appreciate 'good,' learning from mistakes enriches our language-learning journey.",
+"feedback_incorrect": "¡Ay, caramba! That's not the right translation. The correct answer is 'bad'. 'Mal' reminds us that even when things seem tough, there's always room to grow and improve.",
+"next_node": "translate_word13"
+},
+"translate_word13": {
+"text": "¡Increíble! Can you tell me the English translation of 'grande'?",
+"correct_answers": ["big", "large"],
+"feedback_correct": "¡Fabuloso! 'Grande' can mean 'big' or 'large' in English. The word 'grande' echoes the grandeur of our language and the limitless possibilities it holds.",
+"feedback_incorrect": "¡Ay, caramba! That's not quite right. The correct translations are 'big' or 'large'. Imagine a vast, grande world of Spanish unfolding before your eyes.",
+"next_node": "translate_word14"
+},
+"translate_word14": {
+"text": "¡Estupendo! How would you say 'pequeño' in English?",
+"correct_answers": ["small", "little"],
+"feedback_correct": "¡Maravilloso! 'Pequeño' can mean 'small' or 'little' in English. From tiny seeds, great forests grow, and from learning pequeño words, a rich vocabulary emerges.",
+"feedback_incorrect": "¡Ay, ay, ay! That's not correct. The right translations are 'small' or 'little'. Imagine the beauty found in the pequeño details of language and life.",
+"next_node": "translate_word15"
+},
+
+
+
+"translate_word15": {
+"text": "¡Excelente! What is the English translation of the Spanish word 'amar'?",
+"correct_answers": ["to love"],
+"feedback_correct": "¡Muy bien! 'Amar' means 'to love' in English. Love is a universal language that transcends borders and connects us all.",
+"feedback_incorrect": "¡Ay, caramba! That's not the correct translation. The correct translation is 'to love'. Love has the power to inspire and bring people together.",
+"next_node": "translate_word16"
+},
+"translate_word16": {
+"text": "¡Fantástico! What is the English translation of the Spanish word 'odiar'?",
+"correct_answers": ["to hate"],
+"feedback_correct": "¡Increíble! 'Odiar' means 'to hate' in English. While love unites, hate reminds us of the importance of compassion and understanding.",
+"feedback_incorrect": "¡Ay, ay, ay! That's not quite right. The correct translation is 'to hate'. Hate is a powerful emotion that teaches us the value of love and acceptance.",
+"next_node": "translate_word17"
+},
+"translate_word17": {
+"text": "¡Estupendo! What is the English translation of the Spanish word 'familia'?",
+"correct_answers": ["family"],
+"feedback_correct": "¡Maravilloso! 'Familia' translates to 'family' in English. Family is a source of love, support, and strength in our lives.",
+"feedback_incorrect": "¡Ay, caramba! That's not quite right. The correct translation is 'family'. Family plays an integral role in our lives, shaping our identities and creating lasting connections.",
+"next_node": "translate_word18"
+},
+"translate_word18": {
+"text": "¡Fantástico! What is the English translation of the Spanish word 'amor'?",
+"correct_answers": ["love"],
+"feedback_correct": "¡Excelente! 'Amor' means 'love' in English. Love is a beautiful and profound emotion that has the power to transform lives.",
+"feedback_incorrect": "¡Ay, ay, ay! That's not quite right. The correct translation is 'love'. Love is a universal language that brings warmth and joy to our hearts.",
+"next_node": "translate_word19"
+},
+
+
+"translate_word19": {
+"text": "¡Excelente! Can you tell me the English translation of 'feliz'?",
+"correct_answers": ["happy"],
+"feedback_correct": "¡Fantástico! 'Feliz' translates to 'happy' in English. Just like the warm glow of a smile, 'feliz' lights up conversations and spreads joy.",
+"feedback_incorrect": "¡Ay, ay, ay! That's not quite right. The correct translation is 'happy'. 'Feliz' carries the essence of joy and positivity in both language and life.",
+"next_node": "[END]"
+},
+
+
+"end": {
+"text": "¡Increíble! You did an amazing job translating Spanish words into English. Keep up the excellent work, and soon you'll be conversing in Spanish like a pro. Remember, practice makes perfecto. ¡Buena suerte! (Good luck!)",
+"correct_answers": ["xxxxxxx"],
+"feedback_correct": "love you too",
+"feedback_incorrect": "bye",
+"next_node": "[END]"
+	}
+}
