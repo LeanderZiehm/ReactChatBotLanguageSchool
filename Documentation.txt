@@ -1,0 +1,16 @@
+setup:
+open Frontend
+then open the terminal and type: npm i
+go back and open Backend
+then open the terminal and type: npm i
+usage:
+in the Backend run node server.js to test out chatbot
+in the Backend run node serverChatGPT.js to test out chatbot with openai for task 3
+
+
+Team members:
+Leander	Ziehm	22201349	
+Amin	Akziz	22207319
+Stephan	Karas	22204952
+
+

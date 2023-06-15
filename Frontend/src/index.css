@@ -10,6 +10,17 @@
            background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
             background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
         }
+        .h-100{
+            position: relative;
+            top: 50px;
+        }
+
+        @media (max-width: 768px) {
+          .h-100 {
+         position: relative;
+                    top: 0px;
+          }
+        }
 
         .chat{
             margin-top: auto;
