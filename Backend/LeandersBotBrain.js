@@ -1,17 +1,5 @@
 const fs =  require('fs');
 
-
-// var TEST_MODE = false;
-
-
-
-// let fileName;
-// if(TEST_MODE){
-//   fileName = 'LeandersIntentsTEST.json';
-// }else{
-//   fileName = 'LeandersIntents.json';
-// }
-
 var fileName = 'LeandersIntents.json';
 
 console.log(fileName);
@@ -20,15 +8,10 @@ const parsed = JSON.parse(jsonData);
 
 var startingNode = parsed["start"];
 var current_node = startingNode;
-
-
-
 var correctCounter = 0;
 var falseCounter = 0;
-
+var falseInARowCounter = 0;
 var conversationEnded = false;
-
-// var lineCount = 20
 
 // Function to find the matching intent for a given message
 function processUserInput(userInput) {
@@ -38,9 +21,6 @@ function processUserInput(userInput) {
     current_node = startingNode;
     conversationEnded = false;
   }
-
-
-  
     if(userInput == "[start]"){
       return current_node.text;
     }else{
@@ -60,9 +40,18 @@ function processUserInput(userInput) {
       if(userGotItCorrect){
         response = current_node.feedback_correct;
         correctCounter++;
+        falseInARowCounter = 0;
       }else{
         response = current_node.feedback_incorrect;
         falseCounter++;
+        falseInARowCounter++;
+
+        if(falseInARowCounter >= 18){
+          response = "You got 18 questions wrong in a row. I think you should try again later. You are not ready yet. :) [RESTARTING CHAT. BEEP BOOP]";
+          falseInARowCounter = 0;
+          conversationEnded = true;
+          return response;
+        }
       }
 
 
