@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/5651f1aa-2a50-408a-be59-1d2c11b074db/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/ChatbotDeployTest1",
+    "appService.deploySubpath": "."
+}
