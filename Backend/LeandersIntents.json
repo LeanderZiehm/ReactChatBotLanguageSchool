@@ -36,14 +36,14 @@
 },
 "translate_word4": {
 "text": "¡Muy bien! How would you translate 'comer' in English?",
-"correct_answers": ["to eat"],
+"correct_answers": ["eat"],
 "feedback_correct": "¡Fantástico! 'Comer' means 'to eat' in English. Sharing a meal is a time for connection, just like we're connecting with the Spanish language here.",
 "feedback_incorrect": "¡Ay, ay, ay! That's not the right translation. The correct answer is 'to eat'. Comer is more than a simple action; it's a chance to savor the flavors of language and culture.",
 "next_node": "translate_word5"
 },
 "translate_word5": {
 "text": "¡Increíble! Can you tell me the English translation of 'beber'?",
-"correct_answers": ["to drink"],
+"correct_answers": ["drink"],
 "feedback_correct": "¡Maravilloso! 'Beber' translates to 'to drink' in English. Whether it's a refreshing beverage or the elixir of knowledge, beber quenches our thirst for learning.",
 "feedback_incorrect": "¡Ay, caramba! That's not quite right. The correct translation is 'to drink'. Beber is like a sip of Spanish that nourishes our language-learning journey.",
 "next_node": "translate_word6"
@@ -116,14 +116,14 @@
 
 "translate_word15": {
 "text": "¡Excelente! What is the English translation of the Spanish word 'amar'?",
-"correct_answers": ["to love"],
+"correct_answers": ["love"],
 "feedback_correct": "¡Muy bien! 'Amar' means 'to love' in English. Love is a universal language that transcends borders and connects us all.",
 "feedback_incorrect": "¡Ay, caramba! That's not the correct translation. The correct translation is 'to love'. Love has the power to inspire and bring people together.",
 "next_node": "translate_word16"
 },
 "translate_word16": {
 "text": "¡Fantástico! What is the English translation of the Spanish word 'odiar'?",
-"correct_answers": ["to hate"],
+"correct_answers": ["hate"],
 "feedback_correct": "¡Increíble! 'Odiar' means 'to hate' in English. While love unites, hate reminds us of the importance of compassion and understanding.",
 "feedback_incorrect": "¡Ay, ay, ay! That's not quite right. The correct translation is 'to hate'. Hate is a powerful emotion that teaches us the value of love and acceptance.",
 "next_node": "translate_word17"
