@@ -10,9 +10,9 @@ server.listen(PORT, () => console.log(`Server started on http://localhost:${PORT
 app.use(express.static('public'));
 
 io.on("connection", (socket) => {
-    console.log(`[[connect ${socket.id}]]`);
+  console.log(`[[connect ${socket.id}]]`);
 
-  socket.emit('start');//clears chat space on start
+  // socket.emit('[start]','[start]');//clears chat space on start
   const responseText = processUserInput("[start]");//reqests start message from bot.js
   console.log(responseText);
   socket.emit('serverResponse', responseText);

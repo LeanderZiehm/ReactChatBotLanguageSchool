@@ -21,11 +21,11 @@ function BigApp() {
         setMessages([...messages]);
     });
 
-    socket.on('[start]', data => {  // emptying the textbox after sending message
+    // socket.on('[start]', data => {  // if second connection comes messages from the first chat will be deleted
 
-        console.log(data+" recived. Deleting all messages");
-        setMessages([]);
-     });
+    //     console.log(data+" recived. Deleting all messages");
+    //     setMessages([]);
+    //  });
     
 
 
@@ -35,7 +35,8 @@ function BigApp() {
         if(inputText.length > 0){
         console.log("onSubmitMessage called:" + inputText);
 
-        socket.emit('clientRequest', inputText);
+        socket.emit('clientRequest', inputText); // send message to backend. This is the only input that goes to backend
+
         // setMessages([...messages, {text: inputText, sender: "user"}])
         messages.push({text: inputText, sender: "user"});
         // setMessages(messages);

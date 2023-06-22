@@ -18,10 +18,10 @@ function processUserInput(userInput) {
 
   if(conversationEnded){
     userInput = "[start]";
-    current_node = startingNode;
     conversationEnded = false;
   }
     if(userInput == "[start]"){
+      current_node = startingNode;
       return current_node.text;
     }else{
       var response = "";
