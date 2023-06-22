@@ -15,7 +15,7 @@ const Header = (props) => {
           <span className="online_icon"></span>
         </div>
         <div className="user_info">
-          <span>Chat with OpenAi API</span>
+          <span>Language ChadBot</span>
           <p>Messages: {messageCount} | by User: {userMessageCount} | by Bot: {botMessageCount} / 22 Messages</p>
    
           {/* <p>{props.messages.length}/20 Messages</p> */}
