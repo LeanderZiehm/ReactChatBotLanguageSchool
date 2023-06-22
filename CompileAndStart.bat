@@ -4,7 +4,7 @@ del /F /Q "..\Backend\public\*"
 robocopy /E /move "build" "..\Backend\public"
 cd ..
 cd "Backend"
-start "" "http://localhost:5000/"
+start "" "http://localhost:4000/"
 node server.js
 
 @echo off

@@ -8,7 +8,7 @@ const fs = require('fs');
 const { Configuration, OpenAIApi } = require("openai");
 
 
-const PORT = 5000 || process.env.PORT;
+const PORT = 4000 || process.env.PORT;
 server.listen(PORT, () => console.log(`Server started on http://localhost:${PORT}`));
 app.use(express.static('public'));
 
