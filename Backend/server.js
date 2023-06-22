@@ -5,7 +5,7 @@ const server = http.createServer(app);
 const { Server } = require('socket.io');
 const io = new Server(server);
 const { processUserInput } = require('./LeandersBotBrain.js');
-const PORT = 5000 || process.env.PORT;
+const PORT = process.env.PORT||4000;
 server.listen(PORT, () => console.log(`Server started on http://localhost:${PORT}`));
 app.use(express.static('public'));
 
