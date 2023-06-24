@@ -8,7 +8,7 @@ const fs = require('fs');
 const { Configuration, OpenAIApi } = require("openai");
 
 
-const PORT = 4000 || process.env.PORT;
+const PORT = process.env.PORT || 4000;
 server.listen(PORT, () => console.log(`Server started on http://localhost:${PORT}`));
 app.use(express.static('public'));
 
@@ -20,7 +20,7 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
-const MAX_TOKENS = 1500;
+const MAX_TOKENS = 3000;
 
 let messagesHistory = [{"role": "system", "content": systemPromptText}];
 
@@ -28,6 +28,8 @@ let messagesHistory = [{"role": "system", "content": systemPromptText}];
 
 io.on("connection", (socket) => {
     console.log(`[[connect ${socket.id}]]`);
+    messagesHistory = [{"role": "system", "content": systemPromptText}];
+
 
 socket.on('clientRequest', async message => {
       console.log(message);    
